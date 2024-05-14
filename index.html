@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Add custom styles here */
+        /* Nav bar color */
+        .navbar-custom {
+            background-color: #007bff; /* Change the color as per your choice */
+        }
+        /* Text color of nav items */
+        .navbar-custom .navbar-nav .nav-link {
+            color: #fff; /* Change the color as per your choice */
+        }
+        /* Category section style */
+        .category-section {
+            padding: 50px 0;
+        }
+        .category-card {
+            background-size: cover;
+            height: 200px; /* Adjust the height as per your requirement */
+            color: #fff; /* Change the text color as per your choice */
+        }
+        /* About section style */
+        .about-section {
+            padding: 50px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand text-light fw-bold fs-2" href="#">Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- Updated class here -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Category Section -->
+    <section class="category-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card category-card" style="background-image: url('./images/men-fashion-free-img.jpg'); background-position: center; background-size: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Category 1</h5>
+                            <p class="card-text text-dark">Description of Category 1</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card" style="background-image: url('./images/sports-shoe3-300x300.jpg'); background-position: center; background-size: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Category 2</h5>
+                            <p class="card-text text-dark">Description of Category 2</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card category-card" style="background-image: url('./images/footwear-free-img.jpg'); background-position: center; background-size: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title text-dark">Category 3</h5>
+                            <p class="card-text text-dark">Description of Category 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./images/banner-03.jpg" class="img-fluid" alt="About Image">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quis nisi doloribus! Officiis maxime neque similique placeat inventore ipsum dolor laboriosam voluptatem quo esse dolores at, quasi eveniet perferendis voluptatibus. Minus ducimus voluptatibus ut voluptates incidunt fugit cupiditate exercitationem enim excepturi amet aut ea, atque facilis suscipit, iusto dolore dolorem laborum, deserunt nostrum quaerat architecto nihil at. Enim, molestias. Obcaecati necessitatibus placeat quae provident quidem, id numquam non perferendis dignissimos autem quo quisquam laudantium voluptatibus velit doloremque libero totam temporibus asperiores sapiente! Nisi tenetur est cum repellendus quas nemo placeat earum nesciunt, doloribus veniam velit, voluptates similique labore perspiciatis mollitia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
